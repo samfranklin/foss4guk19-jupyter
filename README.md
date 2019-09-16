@@ -21,32 +21,63 @@ The workshop is aimed at GIS desktop users with "beginner-level" awareness of py
 ## How to build your Environment
 
 ### Build Option 1. Miniconda + Manually set up your environemnt
-1. *Get Miniconda*
-If you do not have either `Anaconda` or `miniconda` installed, then go and download `miniconda` from https://docs.conda.io/en/latest/miniconda.html.  Select the Python 3.x option rather than the 2.x version to download and run the installer.
+
+* If you do not have either `Anaconda` or `miniconda` installed, then go and download `miniconda` from https://docs.conda.io/en/latest/miniconda.html.
+* Select the Python 3.x option rather than the 2.x version to download and run the installer.
 
 * For Windows users, here's a link to the [Win64 Installer](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe). Download this and run the exe installer
 
-* For those happy with the terminal on 64bit systems, install via the following either:
-```
+* For those on MacOS and are happy with terminal, try either:
+
+```bash
 # get the latest MacOS 64-bit installer
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
-bash Miniconda3-latest-MacOSX-x86_64.sh 
+bash Miniconda3-latest-MacOSX-x86_64.sh
+```
 
+```bash
 # get the latest linux 64-bit installer
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-MacOSX-x86_64.sh
 ```
 
-2. Download a copy of this repository, either via the `git clone` of download of the zip archive.
-3. Open your terminal and change directory `cd` into this repository on your local system.
+Download a copy of this repository, either downloading of the zip or via git, with:
+
+```bash
+git clone git@github.com:samfranklin/foss4guk19-jupyter.git
 ```
-cd foss4guk18
+
+Open your terminal and change directory into this repository.
+
+```bash
+cd foss4guk19-jupyter
 ```
-4. Check your terminal can use the conda program with `conda --version`
-4. Create the conda environment using the environment yaml file `conda env create --file requirements.yml`
-5. Activate the environment with `conda activate jgpenv`
-6. Launch a Jupyter Notebook with `jupyter notebook`
-7. We're ready to go!
+
+Check your terminal can use the conda program with
+
+```bash
+conda --version
+```
+
+Create the conda environment using the environment yaml file, this can take between 5 - 10 minutes:
+
+```bash
+conda env create --file requirements.yml
+```
+
+Activate the environment
+
+```bash
+conda activate jgpenv
+```
+
+Launch a Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+We're ready to go!
 
 ### Build Option 2. Docker
 * If you're comfortable with Docker, then the docker container (which I haven't built yet) from (some-URL).
