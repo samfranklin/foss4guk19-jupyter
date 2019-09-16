@@ -77,9 +77,4 @@ Launch a Jupyter Notebook
 jupyter notebook
 ```
 
-We're ready to go!
-
-### Build Option 2. Docker
-* If you're comfortable with Docker, then the docker container (which I haven't built yet) from (some-URL).
-* Further instructions to follow.
-
+You are ready to go!
