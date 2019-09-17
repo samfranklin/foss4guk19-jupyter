@@ -1,4 +1,4 @@
-# FOSS4G UK 2018 Geoprocessing with Jupyter Notebooks
+# FOSS4G UK 2019 Geoprocessing with Jupyter Notebooks
 
 This repo will be updated closer to the FOSS4G UK workshop that is scheduled on Thursday 19th September 2019.
 
