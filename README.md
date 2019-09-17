@@ -27,7 +27,7 @@ We will use `Miniconda` together with a `requirements.yml` file that will provis
 
 * For Windows users, here's a link to the [Win64 Installer](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe). Download this and run the exe installer
 
-* For those on MacOS and are happy with terminal, try either:
+* For those on MacOS or Linux and are happy with terminal, try either:
 
 ```bash
 # get the latest MacOS 64-bit installer
