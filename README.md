@@ -20,7 +20,7 @@ The workshop is aimed at GIS desktop users with "beginner-level" awareness of py
 
 ## How to build your Environment
 
-### Build Option 1. Miniconda + Manually set up your environemnt
+We will use `Miniconda` together with a `requirements.yml` file that will provision all the packages with a virtual environment.
 
 * If you do not have either `Anaconda` or `miniconda` installed, then go and download `miniconda` from https://docs.conda.io/en/latest/miniconda.html.
 * Select the Python 3.x option rather than the 2.x version to download and run the installer.
