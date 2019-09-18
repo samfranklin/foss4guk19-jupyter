@@ -18,3 +18,4 @@ dependencies:
   - gdal
   - shapely
   - numpy
+  - geojson
