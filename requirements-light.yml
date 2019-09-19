@@ -1,0 +1,16 @@
+name: jgpenv-lite
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - pandas
+  - notebook
+  - geopandas
+  - matplotlib
+  - descartes
+  - cartopy
+  - contextily
+  - gdal
+  - shapely
+  - numpy
+  - geojson
