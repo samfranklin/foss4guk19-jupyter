@@ -7,14 +7,15 @@ dependencies:
   - notebook
   - geopandas
   - matplotlib
+  - rasterio
   - descartes
-  - xarray
+ # - xarray
   - cartopy
-  - netcdf4
-  - seaborn
-  - contextily
-  - geoplot
-  - mapclassify
+ # - netcdf4
+ # - seaborn
+ # - contextily
+ # - geoplot
+ # - mapclassify
   - gdal
   - shapely
   - numpy

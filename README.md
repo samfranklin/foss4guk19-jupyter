@@ -78,3 +78,8 @@ jupyter notebook
 ```
 
 You are ready to go!
+
+
+## Backup Option
+
+In the event your environment doesn't build or the the conference WiFi isn't up to the task, you can follow along to the workshop and view the jupyter notebooks via `nbviewer` using https://nbviewer.jupyter.org/github/samfranklin/foss4guk19-jupyter/tree/master/tutorials/
