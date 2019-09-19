@@ -104,8 +104,9 @@ venv.bak/
 .mypy_cache/
 
 # project exceptions
-data/
-tmp/
-tutorials/
+
+tutorials/bak/
+tutorials/data/dem-working/
+tutorials/data/bak/
 TODO.md
 notes.md
