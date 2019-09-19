@@ -55,6 +55,8 @@ If you're sitting here, and you don't fit that profile, `DO NOT PANIC` you can t
 
 ## How to build your Environment
 
+This is the key task for a newcomer.
+
 We will use `Miniconda` together with a `requirements.yml` file that will provision all the packages with a virtual python environment.
 
 * If you do not have either `Anaconda` or `miniconda` installed, then go and download `miniconda` from https://docs.conda.io/en/latest/miniconda.html.
@@ -63,7 +65,7 @@ We will use `Miniconda` together with a `requirements.yml` file that will provis
 
 * For Windows users, here's a link to the [Win64 Installer](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe). Download this and run the exe installer
 
-* For those on MacOS or Linux and are happy with terminal, try either:
+* For those on MacOS or Linux and are happy with the terminal, try either:
 
 ```bash
 # get the latest MacOS 64-bit installer
@@ -83,13 +85,14 @@ Download a copy of this repository, either downloading of the zip or via git, wi
 git clone git@github.com:samfranklin/foss4guk19-jupyter.git
 ```
 
-Open your terminal and change directory into this repository.
+For Windows users, it's best to use the anaconda terminal app, so open this application from the start menu.  
+You will need to change the directory to where you downloaded the code repository. If you're using the terminal on Linux or macOS, it's the same synatax to change directory.
 
 ```bash
 cd foss4guk19-jupyter
 ```
 
-Check your terminal can use the conda program with
+Check your terminal can use the conda program with:
 
 ```bash
 conda --version
