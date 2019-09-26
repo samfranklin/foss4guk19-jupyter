@@ -118,6 +118,8 @@ jupyter notebook
 You are ready to go!
 
 
-## Backup Option for a Build environment fail.
+## Backup Option - in case your environment does not build
 
-In the event your environment doesn't build or the the conference WiFi isn't up to it, you can follow along to the workshop and view the jupyter notebooks via `nbviewer` using https://nbviewer.jupyter.org/github/samfranklin/foss4guk19-jupyter/tree/master/tutorials/, and select the notebooks with 'nbviewer'
+In the event your environment doesn't build or the the conference WiFi isn't up to it, you can follow along to the workshop and view the jupyter notebooks via `nbviewer` using https://nbviewer.jupyter.org/github/samfranklin/foss4guk19-jupyter/tree/master/tutorials/, and select the notebooks with 'nbviewer'.
+
+`nbviewer` is a simple online tool that allows you to share notebooks. GitHub and GitLab sometimes do not render the outputs of a notebook particularly well, so, https://nbviewer.jupyter.org/ allows you to render a notebook already published on the interview on their server.
