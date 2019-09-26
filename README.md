@@ -2,7 +2,7 @@
 
 ## Workshop Overview
 
-The Jupyter notebook is becoming the de-facto environment for data scientists using the so-called "pydata stack" (python packages of numpy, pandas, matplotlib, other). Now, there is increasing crossover between desktop GIS specialists and python developers, as python packages that manipulate geographic data mature. Notebooks are a powerful yet easy to use environment to write code with and allow you to interact with your data and share workflows easily.
+The Jupyter notebook has fast become the de-facto environment for data scientists using the so-called "pydata stack" (python packages of numpy, pandas, matplotlib, amongst others). Now, there is increasing crossover between desktop GIS specialists and python developers, as python packages that manipulate geographic data become more feature rich and mature. Jupyter notebooks, often referred to as iPython notebooks, offer a powerful yet easy to use environment to write code to explore, interact with and visualise data. Notebooks allow you to save the steps of your workflow, making them easy to share as a file or publish to the web.
 
 The objectives of this short workshop are to provide GIS users with a hands-on introduction to (a) how to set up a jupyter notebook environment locally using Anaconda and install various required python packages (b) undertake some simple geo-processing tasks using a mixture of "geo" packages within the "pydata" ecosystem, e.g. rasterio, xarray and geopandas, (c) visualise processing outputs.
 
@@ -11,24 +11,20 @@ The workshop is aimed at GIS desktop users with "beginner-level" awareness of py
 ## Prerequisites for Participants - what you need to do beforehand
 
 * Bring a laptop. Laptop spec? If it can run qgis, then you should be okay.
-* A local copy of this repository. You can either git clone, or download the zip and extract to your local disc. Here is the URL:
-
-https://github.com/samfranklin/foss4guk19-jupyter
-
+* A local copy of this repository. You can either git clone, or download the zip and extract to your local disc. The repo URL is https://github.com/samfranklin/foss4guk19-jupyter
  
 ## Introduction/Background
 
-### Why this workshop?
+### Why this workshop? 
 
-* 18 months ago I took a job and worked with a number of data scientists (without gis applications background) who all used the `pydata` stack and not gis apps for geospatial data manipulation and processing.
-* In the python data community jupyter notebooks were the go-to for data hacking, loading, manipulation and visualisation. 
-* I saw a bit of a disconnect between the pydata community and the traditional GIS community. Even at FOSS4G UK, I hadn't seen any workshops, so decided to share some lessons learned. 
+* 18 months ago I took a job working in a data science team. Many of team members had no formal background in GIS applications or used traditional desktop GIS software, but everyone was working with geo data everyday using the `pydata` stack and jupyter notebooks.
+* In the python data community jupyter notebooks were the go-to for data hacking, loading, manipulation and visualisation. However in 2019 in the GIS community, there still seems to be a lack of awareness of their utility. Even at FOSS4G UK, I hadn't seen any workshops, so decided to share with this workshop.
 
-### Who is the Workshop For?
+### Who is the Workshop for?
 
-I want to cater someone with one or all of the following requirements: 
+I want to cater someone with one or all of the following requirements:
 
-* Anaconda complete beginner, never installed, but wants to try it
+* Anaconda/conda complete beginner, never installed, but wants to try it
 * Jupyter Notebook complete beginner, never installed, but wants to try it
 * Some awareness of python probably from GIS desktop appsm like QGIS or Esri's ArcPy
 * Someone that wants to share repeatable spatial data processing workflows.
@@ -37,17 +33,20 @@ I want to cater someone with one or all of the following requirements:
 
 If you're sitting here, and you don't fit that profile, `DO NOT PANIC` you can treat this as a fresher.
 
-### There are a bunch of interactive tools similar to notebooks, why jupyter notebooks?
+### There are a bunch of interactive tools similar to notebooks, why jupyter notebooks ?
 
-* There was a great talk earlier by Mila Frerichs in the technical track.
-* It's true there's a couple of new jams, e.g. [ObservableHQ](https://observablehq.com/) and [JupyterLab](https://jupyter.org/try), however this is aimed at beginners, so the Jupyter Notebook is simple and therefore a good place to start. 
+* There was a great talk by Mila Frerichs in the technical track on day 1 of FOSS4G UK 2019 who gave a rundown of various data science tools.
+* It's true there's a couple of new jams, e.g. [ObservableHQ](https://observablehq.com/) and [JupyterLab](https://jupyter.org/try). However, this workshop is aimed at beginners, so the Jupyter Notebook is simple and therefore as good a place to start as any.
 
 ### Some background before we dive in
-* What is `Anaconda`? - see the [docs](https://anaconda.org/about) - Anaconda is a data-science software platform, for 
-* What is `conda` ? - see the [docs](https://conda.io/en/latest/) - Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux.
+
+* What is [Anaconda](https://anaconda.org/about)? Anaconda is a data-science platform that distributes software packages.
+* What is [Conda](https://conda.io/en/latest/)? Conda is an open source package management system for installing software in the terminal. Conda also allows isolation of environments.
+* What is [Miniconda](https://docs.conda.io/en/latest/miniconda.html)? Miniconda is a minimal installer (~70 MB) for conda, whereas Anaconda is ~700 MB and provides a full set of data science packages.
 * What is a jupyter notebook and how do I run it - let's have a look at an uber simple example using `/test-packages-notebook-overview.ipynb`
 
-## How this workshop will run
+### How this workshop will run
+
 * Primary aim is to get your environment set up. This is often a big hurdle to adoption.
 * For the 'beginners' I will walk through the two notebooks (time dependant) cell by cell and describe what's happening.
 * If you are more comfortable with python and notebooks and are curious about the geoprocessing examples, feel free to work through them at your own (quicker) pace, instructions are on the notebooks.
@@ -119,4 +118,3 @@ You are ready to go!
 ## Backup Option for a Build environment fail.
 
 In the event your environment doesn't build or the the conference WiFi isn't up to it, you can follow along to the workshop and view the jupyter notebooks via `nbviewer` using https://nbviewer.jupyter.org/github/samfranklin/foss4guk19-jupyter/tree/master/tutorials/, and select the notebooks with 'nbviewer'
-
