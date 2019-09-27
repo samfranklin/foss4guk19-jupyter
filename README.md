@@ -1,5 +1,14 @@
 # FOSS4G UK 2019 Geoprocessing with Jupyter Notebooks
 
+# | #
+  -- | -- 
+ Author | Sam Franklin  
+ Workshop Date | 2019-09-19 
+ Workshop URL | https://github.com/samfranklin/foss4guk19-jupyter 
+ Contact | Message [@samrfranklin](https://twitter.com/samrfranklin)
+ Conference URL | https://uk.osgeo.org/foss4guk2019/
+ nbviewer URL | https://nbviewer.jupyter.org/github/samfranklin/foss4guk19-jupyter/tree/master/tutorials/
+
 ## Workshop Overview
 
 The Jupyter notebook has fast become the de-facto environment for data scientists using the so-called "pydata stack" (python packages of numpy, pandas, matplotlib, amongst others). Now, there is increasing crossover between desktop GIS specialists and python developers, as python packages that manipulate geographic data become more feature rich and mature. Jupyter notebooks, often referred to as iPython notebooks, offer a powerful yet easy to use environment to write code to explore, interact with and visualise data. Notebooks allow you to save the steps of your workflow, making them easy to share as a file or publish to the web.
