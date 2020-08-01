@@ -1,13 +1,12 @@
 # FOSS4G UK 2019 Geoprocessing with Jupyter Notebooks
 
-# | #
-  -- | -- 
- Author | Sam Franklin  
- Workshop Date | 2019-09-19 
- Workshop URL | https://github.com/samfranklin/foss4guk19-jupyter 
- Contact | Message [@samrfranklin](https://twitter.com/samrfranklin)
- Conference URL | https://uk.osgeo.org/foss4guk2019/
- nbviewer URL | https://nbviewer.jupyter.org/github/samfranklin/foss4guk19-jupyter/tree/master/tutorials/
+
+* **Author**: Sam Franklin  
+* **Workshop Date**: 2019-09-19 
+* **Workshop URL**: https://github.com/samfranklin/foss4guk19-jupyter
+* **Contact**: [@samrfranklin](https://twitter.com/samrfranklin)
+* **Conference URL**: https://uk.osgeo.org/foss4guk2019/
+* **nbviewer URL**: https://nbviewer.jupyter.org/github/samfranklin/foss4guk19-jupyter/tree/master/tutorials/
 
 ## Workshop Overview
 
